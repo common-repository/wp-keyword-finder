@@ -1,0 +1,107 @@
+#wpkf-title {
+    font: bold 48pt "Trebuchet MS";
+    text-align: center;
+    color: orange;
+    letter-spacing: -2px;
+}
+
+#wpkf-title span {
+    font-weight: normal;
+    color: darkgray;
+}
+
+#wpkf-keywords {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px #CCC inset;
+    padding: 10px;
+    width: 60%;
+    background: #fafafa;
+    margin: auto;
+}
+
+.tag {
+    height: 27px;
+    display: inline-block;
+    background: orange;
+    text-align: center;
+    margin: 5px 10px;
+    color: #ffffff;
+    padding: 5px 10px;
+    font: normal 16px sans-serif;
+    position: relative;
+    cursor: copy;
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, .2);
+    -webkit-transform-origin: 0% 50%;
+    -webkit-animation: swing 1s;
+    -o-animation: swing 1s;
+    animation: swing 1s;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.tag:before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    background: #fafafa;
+    position: absolute;
+    left: 4px;
+    top: 15px;
+    -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .2);
+    -moz-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .2);
+    box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .2);
+}
+
+.tag p {
+    margin: 0 0 0 7px;
+    font-size: 18px;
+}
+
+.inside .WPKF-input {
+    outline: none;
+    border: none;
+    padding: 6px;
+    margin-right: -25px;
+    width: 100%;
+    background-color: transparent;
+    font-size: 14px;
+    color: #333;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2) inset;
+}
+
+.inside .WPKF-select {
+    outline: none;
+    border: none;
+    padding: 6px;
+    margin-right: -25px;
+    width: 100%;
+    background-color: transparent;
+    font-size: 14px;
+    color: #333;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 9px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 9px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 9px;
+}
+
+.girdiler {
+    margin: 15px 10px;
+}
+.girdiler input,
+.girdiler select{
+    margin: 0;
+}

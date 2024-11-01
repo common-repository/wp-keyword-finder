@@ -1,0 +1,22 @@
+=== WordPress Keyword Finder Changelog ===
+
+/* First Release
+-Date: 16.09.2020
+-Version: 1.0
+*/
+/* First Update
+-Date: 13.12.2020
+-Version: 1.0.1
+*/
+/* Source Update
+-Date: 06.05.2021
+-Version: 1.1.0
+*/
+/* Source Update
+-Date: 06.05.2021
+-Version: 1.1.1
+*/
+/* Some Required Updates
+-Date: 23.01.2022
+-Version: 1.1.2
+*/
